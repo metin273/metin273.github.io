@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Metin Öztürk | Mobil Uygulamalar ve Yazılım</title>
+  <meta name="description" content="Metin Öztürk tarafından geliştirilen mobil uygulamalar, oyunlar, e-ticaret ve dijital yönetim çözümleri.">
+  <meta name="theme-color" content="#111827">
+
+  <style>
+    :root{
+      --bg:#0b1020;
+      --card:#141b2d;
+      --text:#f8fafc;
+      --muted:#aeb8c9;
+      --line:rgba(255,255,255,.10);
+      --accent:#f3b34c;
+      --accent2:#ffd98a;
+    }
+
+    *{box-sizing:border-box}
+
+    body{
+      margin:0;
+      font-family:Arial,Helvetica,sans-serif;
+      background:
+        radial-gradient(circle at top right,rgba(243,179,76,.16),transparent 28%),
+        linear-gradient(180deg,#0b1020,#080d18);
+      color:var(--text);
+      line-height:1.6;
+    }
+
+    a{
+      color:inherit;
+      text-decoration:none;
+    }
+
+    .wrap{
+      max-width:1100px;
+      margin:auto;
+      padding:0 22px;
+    }
+
+    header{
+      position:sticky;
+      top:0;
+      background:rgba(8,13,24,.9);
+      border-bottom:1px solid var(--line);
+      z-index:10;
+    }
+
+    nav{
+      height:70px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+    }
+
+    .brand{
+      font-size:19px;
+      font-weight:800;
+    }
+
+    .brand span{
+      color:var(--accent);
+    }
+
+    .navlinks{
+      display:flex;
+      gap:20px;
+      color:var(--muted);
+      font-size:14px;
+    }
+
+    .hero{
+      padding:90px 0 65px;
+    }
+
+    .eyebrow{
+      color:var(--accent2);
+      font-size:12px;
+      font-weight:700;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+    }
+
+    h1{
+      font-size:clamp(42px,7vw,74px);
+      line-height:1.05;
+      margin:15px 0 22px;
+      max-width:900px;
+    }
+
+    .lead{
+      max-width:780px;
+      color:var(--muted);
+      font-size:20px;
+    }
+
+    h2{
+      font-size:30px;
+      margin:0 0 20px;
+    }
+
+    section{
+      padding:32px 0;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:16px;
+    }
+
+    .card{
+      background:rgba(255,255,255,.035);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:22px;
+      min-height:210px;
+      display:flex;
+      flex-direction:column;
+    }
+
+    .tag{
+      width:max-content;
+      color:var(--accent2);
+      background:rgba(243,179,76,.10);
+      border:1px solid rgba(243,179,76,.22);
+      border-radius:999px;
+      padding:5px 9px;
+      font-size:12px;
+      font-weight:700;
+    }
+
+    .card h3{
+      margin:16px 0 8px;
+      font-size:21px;
+    }
+
+    .card p{
+      color:var(--muted);
+      margin:0 0 18px;
+    }
+
+    .link{
+      margin-top:auto;
+      color:var(--accent2);
+      font-weight:700;
+      font-size:14px;
+    }
+
+    .about{
+      background:rgba(255,255,255,.035);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:28px;
+    }
+
+    .about p{
+      color:var(--muted);
+    }
+
+    footer{
+      padding:45px 0 70px;
+      color:var(--muted);
+      text-align:center;
+      font-size:14px;
+    }
+
+    @media(max-width:850px){
+      .grid{
+        grid-template-columns:1fr 1fr;
+      }
+    }
+
+    @media(max-width:620px){
+      .grid{
+        grid-template-columns:1fr;
+      }
+
+      .navlinks{
+        display:none;
+      }
+
+      .hero{
+        padding-top:60px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="wrap">
+    <nav>
+      <a class="brand" href="#">Metin <span>Öztürk</span></a>
+
+      <div class="navlinks">
+        <a href="#projeler">Projeler</a>
+        <a href="#hakkinda">Hakkında</a>
+        <a href="#gizlilik">Gizlilik</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <div class="wrap">
+
+    <section class="hero">
+      <div class="eyebrow">
+        Mobil Uygulamalar • Oyunlar • E-Ticaret
+      </div>
+
+      <h1>
+        Fikirleri çalışan dijital ürünlere dönüştürüyorum.
+      </h1>
+
+      <p class="lead">
+        Android uygulamaları, oyun projeleri, e-ticaret çözümleri
+        ve işletme yönetim araçları geliştiriyorum.
+        Bu site yayımlanan ve geliştirilmekte olan projelerimin
+        resmi geliştirici sayfasıdır.
+      </p>
+    </section>
+
+    <section id="projeler">
+
+      <h2>Projeler</h2>
+
+      <div class="grid">
+
+        <article class="card">
+          <span class="tag">E-Ticaret</span>
+
+          <h3>SEBİHA ÖZTÜRK</h3>
+
+          <p>
+            Çelik takı ürünlerinin görüntülenmesi ve e-ticaret
+            süreçleri için geliştirilen Android uygulaması.
+          </p>
+
+          <a class="link"
+             href="https://metin273.github.io/sebiha-ozturk-privacy/">
+            Gizlilik Politikası →
+          </a>
+        </article>
+
+        <article class="card">
+          <span class="tag">Yönetim</span>
+
+          <h3>SEBİHA YÖNETİM</h3>
+
+          <p>
+            Ürün, sipariş, stok, müşteri ve mağaza yönetimi
+            için geliştirilen Android yönetim uygulaması.
+          </p>
+
+          <a class="link"
+             href="https://metin273.github.io/sebiha-ozturk-privacy/sebiha-yonetim-privacy/">
+            Gizlilik Politikası →
+          </a>
+        </article>
+
+        <article class="card">
+          <span class="tag">Oyun</span>
+
+          <h3>Print Tycoon</h3>
+
+          <p>
+            Android platformu için geliştirilen yönetim
+            ve simülasyon oyunu.
+          </p>
+
+          <a class="link"
+             href="https://metin273.github.io/print-tycoon-privacy/">
+            Gizlilik Politikası →
+          </a>
+        </article>
+
+        <article class="card">
+          <span class="tag">PvP Oyun</span>
+
+          <h3>StatePvP</h3>
+
+          <p>
+            Gerçek oyunculu savaş ve bölge kontrolü üzerine
+            geliştirilen Android strateji oyunu.
+          </p>
+
+          <a class="link"
+             href="https://metin273.github.io/statepvp-privacy/">
+            Gizlilik Politikası →
+          </a>
+        </article>
+
+        <article class="card">
+          <span class="tag">İşletme</span>
+
+          <h3>OtoGaleri</h3>
+
+          <p>
+            Galeri işletmeleri için QR tabanlı araç
+            ve müşteri süreçlerini kolaylaştıran Android uygulaması.
+          </p>
+
+          <a class="link"
+             href="https://metin273.github.io/otogaleri-privacy/">
+            Gizlilik Politikası →
+          </a>
+        </article>
+
+        <article class="card">
+          <span class="tag">Alışveriş</span>
+
+          <h3>Fikir Gezegeni</h3>
+
+          <p>
+            Mobil alışveriş ve e-ticaret deneyimi üzerine
+            geliştirilen Android uygulama projesi.
+          </p>
+        </article>
+
+      </div>
+
+    </section>
+
+    <section id="hakkinda">
+
+      <div class="about">
+
+        <div class="eyebrow">Hakkında</div>
+
+        <h2>
+          Mobil uygulamalar ve dijital projeler
+        </h2>
+
+        <p>
+          Mobil uygulamalardan oyunlara, satış ve yönetim araçlarından
+          işletmelere özel çözümlere kadar farklı alanlarda yazılım
+          projeleri geliştiriyorum.
+        </p>
+
+        <p>
+          Her proje kullanım amacına göre ayrı gizlilik politikası
+          ve kullanıcı bilgilendirmeleriyle yayımlanır.
+        </p>
+
+      </div>
+
+    </section>
+
+    <section id="gizlilik">
+
+      <div class="about">
+
+        <h2>Gizlilik ve Şeffaflık</h2>
+
+        <p>
+          Yayımlanan uygulamaların gizlilik politikaları ilgili
+          proje kartlarında ayrı ayrı sunulmaktadır.
+        </p>
+
+      </div>
+
+    </section>
+
+    <footer>
+      © 2026 Metin Öztürk. Tüm hakları saklıdır.
+    </footer>
+
+  </div>
+
+</main>
+
+</body>
+</html>
